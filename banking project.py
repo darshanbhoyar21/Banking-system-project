@@ -7,7 +7,7 @@ class BankingSystem:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("Banking System")
-        self.root.configure(bg='yellow')  # Set the background color of the root window
+        self.root.configure(bg='black')  # Set the background color of the root window
 
         self.style = ttk.Style()
         self.style.configure('TButton', font=('Helvetica', 12), padding=5, background='white', foreground='black')
